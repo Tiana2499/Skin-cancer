@@ -1,0 +1,28 @@
+__pycache__/
+*.pyc
+catboost_info/
+.ipynb_checkpoints/
+*.log
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.safetensors
+
+# Large arrays / features
+*.npy
+*.npz
+*.parquet
+
+# Large manifests
+cohort_manifests/train_manifest.csv
+cohort_manifests/train_manifest_with_site.csv
+
+# Training output folders
+baseline_A_efficientnetv2s_fullunfreeze/
+baseline_B_densenet121_5fold/
+tinyvitFULLUNFROZEN/
+features/
+models/features/

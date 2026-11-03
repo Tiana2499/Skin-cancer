@@ -1,0 +1,93 @@
+[
+  {
+    "config": "effnet",
+    "save_prefix": "effnet",
+    "xgb_pauc": 0.1348963661330605,
+    "cat_pauc": 0.1642834102868939,
+    "xgb_auroc": 0.9226197388186937,
+    "cat_auroc": 0.9550950629913277,
+    "oof_xgb_pauc": 0.141816189110181,
+    "oof_cat_pauc": 0.12091025081539777,
+    "backbones": "effnet",
+    "n_image": 1,
+    "n_features": 39
+  },
+  {
+    "config": "tinyvit",
+    "save_prefix": "tinyvit",
+    "xgb_pauc": 0.15630466237201282,
+    "cat_pauc": 0.17223220621711038,
+    "xgb_auroc": 0.9447390490936068,
+    "cat_auroc": 0.9636659386030394,
+    "oof_xgb_pauc": 0.13949334427894292,
+    "oof_cat_pauc": 0.12737626857997467,
+    "backbones": "tinyvit",
+    "n_image": 1,
+    "n_features": 39
+  },
+  {
+    "config": "densenet",
+    "save_prefix": "densenet",
+    "xgb_pauc": 0.14067663837356112,
+    "cat_pauc": 0.16282820463195918,
+    "xgb_auroc": 0.9253283198319003,
+    "cat_auroc": 0.9540094187471776,
+    "oof_xgb_pauc": 0.1389579833142032,
+    "oof_cat_pauc": 0.12459952830879938,
+    "backbones": "densenet",
+    "n_image": 1,
+    "n_features": 39
+  },
+  {
+    "config": "effnet + tinyvit",
+    "save_prefix": "effnet+tinyvit",
+    "xgb_pauc": 0.1511091450321177,
+    "cat_pauc": 0.1712608403144497,
+    "xgb_auroc": 0.9392103735242889,
+    "cat_auroc": 0.9636143290294634,
+    "oof_xgb_pauc": 0.14594817866330012,
+    "oof_cat_pauc": 0.1316630606935278,
+    "backbones": "effnet+tinyvit",
+    "n_image": 2,
+    "n_features": 40
+  },
+  {
+    "config": "effnet + densenet",
+    "save_prefix": "effnet+densenet",
+    "xgb_pauc": 0.13821458523413233,
+    "cat_pauc": 0.16826840664657577,
+    "xgb_auroc": 0.9280912752172672,
+    "cat_auroc": 0.9607149769139319,
+    "oof_xgb_pauc": 0.14283381171249307,
+    "oof_cat_pauc": 0.13967122857431713,
+    "backbones": "effnet+densenet",
+    "n_image": 2,
+    "n_features": 40
+  },
+  {
+    "config": "tinyvit + densenet",
+    "save_prefix": "tinyvit+densenet",
+    "xgb_pauc": 0.15561853152331181,
+    "cat_pauc": 0.17254555005667832,
+    "xgb_auroc": 0.9441169694121117,
+    "cat_auroc": 0.9647451316504925,
+    "oof_xgb_pauc": 0.14041093393725548,
+    "oof_cat_pauc": 0.13492224096800712,
+    "backbones": "tinyvit+densenet",
+    "n_image": 2,
+    "n_features": 40
+  },
+  {
+    "config": "effnet + tinyvit + densenet",
+    "save_prefix": "effnet+tinyvit+densenet",
+    "xgb_pauc": 0.15658667182762398,
+    "cat_pauc": 0.17228473739021444,
+    "xgb_auroc": 0.9476365580100823,
+    "cat_auroc": 0.9652123826112601,
+    "oof_xgb_pauc": 0.14820466464026563,
+    "oof_cat_pauc": 0.1420664475685504,
+    "backbones": "effnet+tinyvit+densenet",
+    "n_image": 3,
+    "n_features": 41
+  }
+]

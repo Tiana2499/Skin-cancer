@@ -1,0 +1,2 @@
+model,total_gflops,total_inference_ms,total_params,total_size_mb,per_patient_ms
+Final pipeline (TinyViT + DenseNet + CatBoost),8.176987455999999,16.016869998187758,12026966,47.220153427124025,3203.3739996375516
